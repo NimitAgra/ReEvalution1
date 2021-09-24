@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content">
+    /****** how your layout should looks it should like a cardview or normal
+    view .we can defined code in this particular class****/
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Nimit Agarwal"
+            android:padding="10dp"
+            android:id = "@+id/tvName"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "21"
+            android:padding="10dp"
+            android:id = "@+id/tvAge"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Students"
+            android:padding="10dp"
+            android:id = "@+id/tvId"/>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
